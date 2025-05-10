@@ -6,6 +6,8 @@ import { FaPencil } from 'react-icons/fa6';
 import { RiDeleteBin6Fill } from 'react-icons/ri';
 // Contact component
 export const Contact = () => {
+  const { store, dispatch } = useGlobalReducer();
+
   return (
     <div className="contact-wrap">
       <div className="proifle-image"></div>
